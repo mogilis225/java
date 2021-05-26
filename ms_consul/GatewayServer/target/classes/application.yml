@@ -1,0 +1,16 @@
+spring:  
+  cloud: 
+    gateway: 
+      discovery: 
+        locator: 
+          enabled: true 
+      routes: 
+        - id: EmployeeMS 
+          uri: lb://EmployeeMS 
+          predicates: 
+            - Path=/emp/** 
+        - id: DeportmentMS 
+          uri: lb://DeportmentMS 
+          predicates: 
+            - Path=/dept/**
+        

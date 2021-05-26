@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: MY PC
+Build-Jdk: 15.0.1
+Implementation-Title: Emp-Microservice
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.ms.emp
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/EmployeeMS
+Created-By: Maven Integration for Eclipse
+
